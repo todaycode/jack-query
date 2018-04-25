@@ -8,19 +8,19 @@ body {
 }
 
 body.sticky-footer {
-  margin-bottom: 56px;
+  margin-bottom: 86px;
 }
 
 body.sticky-footer .content-wrapper {
-  min-height: calc(100vh - 56px - 56px);
+  min-height: calc(100vh - 86px - 86px);
 }
 
 body.fixed-nav {
-  padding-top: 56px;
+  padding-top: 86px;
 }
 
 .content-wrapper {
-  min-height: calc(100vh - 56px);
+  min-height: calc(100vh - 86px);
   padding-top: 1rem;
 }
 
@@ -158,7 +158,7 @@ body.fixed-nav {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 56px;
+    margin-top: 86px;
   }
   #mainNav .navbar-collapse .navbar-sidenav > .nav-item {
     width: 250px;
@@ -214,7 +214,7 @@ body.fixed-nav {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: calc(100vh - 56px);
+    margin-top: calc(100vh - 86px);
   }
   #mainNav.fixed-top .sidenav-toggler > .nav-item {
     width: 250px;
@@ -243,12 +243,12 @@ body.fixed-nav {
 
 body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
   overflow-x: hidden;
-  width: 55px;
+  width: 56px;
 }
 
 body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler .nav-item,
 body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler .nav-link {
-  width: 55px !important;
+  width: 56px !important;
 }
 
 body.sidenav-toggled #mainNav.fixed-top #sidenavToggler i {
@@ -300,12 +300,12 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
 
 @media (min-width: 992px) {
   body.sidenav-toggled .content-wrapper {
-    margin-left: 55px;
+    margin-left: 56px;
   }
 }
 
 body.sidenav-toggled .navbar-sidenav {
-  width: 55px;
+  width: 56px;
 }
 
 body.sidenav-toggled .navbar-sidenav .nav-link-text {
@@ -314,7 +314,7 @@ body.sidenav-toggled .navbar-sidenav .nav-link-text {
 
 body.sidenav-toggled .navbar-sidenav .nav-item,
 body.sidenav-toggled .navbar-sidenav .nav-link {
-  width: 55px !important;
+  width: 56px !important;
 }
 
 body.sidenav-toggled .navbar-sidenav .nav-item:after,
@@ -460,9 +460,9 @@ footer.sticky-footer {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 56px;
+  height: 86px;
   background-color: #e9ecef;
-  line-height: 55px;
+  line-height: 56px;
 }
 
 @media (min-width: 992px) {
@@ -473,6 +473,6 @@ footer.sticky-footer {
 
 @media (min-width: 992px) {
   body.sidenav-toggled footer.sticky-footer {
-    width: calc(100% - 55px);
+    width: calc(100% - 56px);
   }
 }

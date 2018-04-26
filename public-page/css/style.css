@@ -53,7 +53,7 @@
 }
 
 .al-begin {
-  height: 100vh;
+  min-height: 140vh;
   background-image: url(/images/bg.png);
   padding: 5rem;
   display: flex;
@@ -200,4 +200,13 @@ div.content-wrapper {
   background: #2D2C3A;
   color: white;
 
+}
+.al-third .al-comment {
+  background: white;
+  padding: 30px;
+  transform: translateY(-15px);
+  
+}
+.al-third .al-comment p{
+  margin-bottom: 10px;
 }

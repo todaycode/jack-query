@@ -1,0 +1,12 @@
+.al-nav {
+  position: fixed;
+  top: 150px;
+  right: 100px;
+  background: blanchedalmond;
+}
+
+.al-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px !important;
+}

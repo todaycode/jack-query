@@ -54,3 +54,7 @@
 .al-third .al-title .al-1 {
   flex-grow: 1;
 }
+
+.al-third .al-content .al-combo .first {
+  display: flex;
+}

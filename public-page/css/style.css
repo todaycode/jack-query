@@ -271,15 +271,11 @@ footer.sticky-footer .al-container {
   align-items: center;
   justify-content: space-between;
 }
-footer.sticky-footer .al-container .first {
-  
-}
+
 footer.sticky-footer .al-container .second {
   flex: 4 4 auto;
 }
-footer.sticky-footer .al-container .third{
 
-}
 footer.sticky-footer {
   background: rgb(38, 38, 38);
   display: flex;

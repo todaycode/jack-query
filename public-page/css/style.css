@@ -250,3 +250,38 @@ body.sidenav-toggled .navbar-sidenav {
     margin-left: 0px;
   }
 }
+footer.sticky-footer {
+  position: fixed;
+  right: auto;
+  bottom: 0;
+}
+body.sidenav-toggled footer.sticky-footer {
+  width: 100%;
+}
+footer.sticky-footer .al-container .second {
+  display: flex;
+  align-content: center;
+  max-width: 1010px;
+  min-width: 610px;
+  overflow: hidden;
+  margin: 0 20px;
+}
+footer.sticky-footer .al-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer.sticky-footer .al-container .first {
+  
+}
+footer.sticky-footer .al-container .second {
+  flex: 4 4 auto;
+}
+footer.sticky-footer .al-container .third{
+
+}
+footer.sticky-footer {
+  background: rgb(38, 38, 38);
+  display: flex;
+  justify-content: center;
+}

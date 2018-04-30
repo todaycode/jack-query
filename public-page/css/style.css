@@ -314,7 +314,7 @@ body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
 
 * {
     font-family: Saira;
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: 500;
     font-style: normal;
     font-stretch: condensed;

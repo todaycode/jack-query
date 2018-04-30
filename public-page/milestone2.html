@@ -136,8 +136,12 @@
           <p>import settings</p>
         </div>
         <div class="al-right">
-          <p>Enter Occupation</p>
-          <input type="text" placeholder="Drag Dealer">
+          <select class="mdb-select">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
           <i class="fas fa-plus-circle"></i>
         </div>
       </div>
@@ -162,7 +166,7 @@
   <script>
     function myMap() {
       var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
+        center: new google.maps.LatLng(32.109333, 34.855499),
         zoom: 10,
         mapTypeId: google.maps.MapTypeId.HYBRID
       }
@@ -170,7 +174,7 @@
     }
   </script>
   
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2QFSkl30k381duzOy_FuIZh5FUDsTJyo&callback=myMap"></script>
 </body>
 
 </html>

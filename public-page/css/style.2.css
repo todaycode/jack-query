@@ -287,3 +287,12 @@ div.icons i.fas {
 input[type=date] {
   color: gray;
 }
+
+* {
+  font-family: Saira;
+  /* font-size: 17px; */
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+
+}

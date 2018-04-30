@@ -253,3 +253,7 @@ body {
   width: 0%;
   content: "";
 }
+
+i.fas:hover, li:hover {
+  color: lightskyblue;
+}

@@ -281,3 +281,13 @@ footer.sticky-footer {
   display: flex;
   justify-content: center;
 }
+#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed:after {
+  content: none;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav>.nav-item a:hover{
+  color: white !important;
+}
+#mainNav .navbar-collapse .navbar-sidenav>.nav-item:hover {
+  background: dodgerblue;
+}

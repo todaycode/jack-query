@@ -279,7 +279,7 @@ footer.sticky-footer .al-container .second {
 footer.sticky-footer {
   background: rgb(38, 38, 38);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 #mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed:after {
   content: none;
@@ -290,4 +290,11 @@ footer.sticky-footer {
 }
 #mainNav .navbar-collapse .navbar-sidenav>.nav-item:hover {
   background: dodgerblue;
+}
+
+body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
+  background-color: #3a3c44;
+}
+#mainNav.fixed-top.navbar-dark .sidenav-toggler {
+  background-color: #3a3c44;
 }

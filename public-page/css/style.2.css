@@ -1,0 +1,152 @@
+body {
+  background-color: #fff;
+}
+
+.al-cont {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 115px 66px;
+}
+
+.al-card {
+  width: 523px;
+  height: 435px;
+  background-color: #ffffff;
+  box-shadow: 0 13px 30px 0 rgba(211, 211, 211, 0.3);
+
+}
+
+.al-title {
+  display: flex;
+  align-items: center;
+  /* width: 523px; */
+  height: 58px;
+  opacity: 0.92;
+  background-image: linear-gradient(to right, #393a41, #3a3c44);
+  /* background-image: linear-gradient(to right, #393a41, var(--charcoal-grey)); */
+  /* box-shadow: 0 18px 26px 0 rgba(0, 0, 0, 0.24); */
+  padding: 22px;
+
+}
+
+.al-title h4 {
+  flex: 1 2 auto;
+  width: 128px;
+  height: 22px;
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: semi-condensed;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #ffffff;
+
+}
+
+.al-title i {
+  color: white;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.al-main {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+}
+
+.al-main .al-left {
+  width: 172px;
+  height: 388.9px;
+  background-color: #414045;
+
+}
+
+.al-main .al-right {
+  width: 523px;
+  /* height: 435px; */
+  background-color: #ffffff;
+  box-shadow: 0 13px 30px 0 rgba(211, 211, 211, 0.3);
+  padding: 21px 23px;
+  position: relative;
+}
+
+.al-right i.fa-plus-circle {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 30px;
+  color: gray;
+}
+
+.al-right p {
+  margin: 0;
+}
+
+.al-main .al-left {
+  padding: 21px 39px;
+}
+
+.al-main .al-left p {
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: semi-condensed;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #ffffff;
+  width: max-content;
+  position: absolute;
+  bottom: 24px;
+  margin: 0;
+}
+
+.al-main .al-left ul {
+  width: max-content;
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: semi-condensed;
+  line-height: 2.64;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 600;
+  color: #8ea698;
+  /* color: var(--greenish-grey); */
+}
+
+.al-right .top i.fas {
+  font-size: 20px;
+  margin-right: 10px;
+  color: silver;
+}
+
+.al-right .top {
+  display: flex;
+  align-items: center;
+  height: 43px;
+}
+
+.al-right .desc p {
+  display: flex;
+  align-items: center;
+}
+
+.al-right .top p {
+  flex: 2 2 auto;
+}
+
+.top, .desc {
+  padding: 21px 23px;
+}
+
+.al-card {
+  margin-right: 60px;
+  margin-bottom: 120px;
+}

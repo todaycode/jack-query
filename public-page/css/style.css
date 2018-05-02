@@ -185,7 +185,7 @@ div.content-wrapper {
 .al-third .al-content {
   background: rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   padding: 35px 60px;
 }
 

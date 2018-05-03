@@ -348,3 +348,7 @@ body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
   box-shadow: 0 8px 16px 2px;
   background: silver;
 }
+
+.al-show {
+  display: block !important;
+}

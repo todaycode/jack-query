@@ -320,3 +320,31 @@ body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
     font-stretch: condensed;
 
 }
+
+.al-modal span {
+  min-width: 200px;
+  display: inline-block;
+  text-align: right;
+}
+.al-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+    -webkit-transition: display 2s ease-out;
+    -moz-transition: display 2s ease-out;
+    -o-transition: display 2s ease-out;
+    transition: display 2s ease-out;
+
+}
+.al-mcont {
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 2px;
+  background: silver;
+}
